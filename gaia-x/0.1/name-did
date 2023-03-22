@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did",
+  "verificationMethod": [
+    {
+      "id": "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft",
+      "type": "JsonWebKey2020",
+      "controller": "github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did",
+      "publicKeyJwk": {
+        "kty": "OKP",
+        "crv": "Ed25519",
+        "x": "0-e2i2_Ua1S5HbTYnVB0lj2Z2ytXu2-tYmDFf8f5NjU"
+      }
+    },
+  ],
+  "authentication": [
+    "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft"
+  ],
+  "assertionMethod": [
+    "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft"
+  ],
+  "keyAgreement": [
+    "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft"
+  ]
+}
