@@ -1,0 +1,7 @@
+{
+   "@context":
+   {
+      "familyName": "http://xmlns.com/foaf/0.1/familyName",
+      "givenName": "http://xmlns.com/foaf/0.1/givenName",
+   }
+}
