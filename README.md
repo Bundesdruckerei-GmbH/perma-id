@@ -6,6 +6,10 @@ The purpose of this repository is to provide a permanent secure URL following th
 
 ## Example
 ### JSON-LD
-"https://github.com/Bundesdruckerei-GmbH/perma-id/gaia-x/0.1/name" : [ {
-  "@value" : "Erika Mustermann"
-} ]
+````json
+{ 
+  "@context": "https://github.com/Bundesdruckerei-GmbH/perma-id/gaia-x/0.1/name",
+  "familyName": "Mustermann",
+  "givenName": "Erika"
+}
+````
