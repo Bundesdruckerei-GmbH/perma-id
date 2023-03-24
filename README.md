@@ -61,9 +61,9 @@ For example Bundesdruckerei is printing the german identity card, thats why the 
 }
 ````
 ## More Information
-[W3C DID Core 1.0](https://www.w3.org/TR/did-core/)
-[W3C Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)
-[JSON-LD](https://json-ld.org/)
+- [W3C DID Core 1.0](https://www.w3.org/TR/did-core/)
+- [W3C Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)
+- [JSON-LD](https://json-ld.org/)
 
 ## About
-![Bundesdruckerei GmbH](https://www.bundesdruckerei.de/themes/custom/bdr_bootstrap5/assets/img/bdrgruppe-color.svg) Bundesdruckerei GmbH
+![Bundesdruckerei GmbH](https://www.bundesdruckerei.de/themes/custom/bdr_bootstrap5/assets/img/bdrgruppe-color.svg)  Bundesdruckerei GmbH
