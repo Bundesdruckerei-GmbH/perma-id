@@ -7,7 +7,7 @@ The purpose of this repository is to provide a permanent secure URL following th
 ## Description
 Base for dezentralized document and schema validation is the oppurtunity to retrieve schema definitions using a static resource location. This resource can get used by the publisher as well any other organizations which are developing implementations based on these schemas.
 
-Following these dezentralized manner, Bundesdruckerei is providing schemas which are fulfilling the validation needs for data Bundesdruckerei is the best organization to provide. For example Bundesdruckerei is publishing the german identity card, thats why the Bundesdruckerei can provide Schema definition for validation of the identity card numbers.
+For example Bundesdruckerei is printing the german identity card, thats why the Bundesdruckerei can provide schema definition for validation of the identity card numbers. Within this repo Bundesdruckerei is providing schemas which are fulfilling the validation needs for these data types.
 
 ## Example
 ### JSON-LD
@@ -18,6 +18,29 @@ Following these dezentralized manner, Bundesdruckerei is providing schemas which
   "givenName": "Erika"
 }
 ````
+### SHACL
+````json
+{
+  "@context": {
+    "cc": "http://creativecommons.org/ns#",
+    "schema": "http://schema.org/",
+    "sh": "http://www.w3.org/ns/shacl#",
+    "bdr-gaiax": "https://github.com/Bundesdruckerei-GmbH/perma-id/gaia-x/0.1/name-shacl#",
+    "did": "https://www.w3.org/TR/did-core/#"
+  },
+  "@id": "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did",
+  "@type": "bdr-gaiaxg",
+  "bdr-gaiax:familyName": {
+    "@value": "Mustermann",
+    "@type": "xsd:string"
+  },
+  "bdr-gaiax:givenName": {
+    "@value": "Erika",
+    "@type": "xsd:string"
+  }
+}
+````
+
 ### DID
 ````json
 {
@@ -37,3 +60,10 @@ Following these dezentralized manner, Bundesdruckerei is providing schemas which
   }
 }
 ````
+## More Information
+[W3C DID Core 1.0](https://www.w3.org/TR/did-core/)
+[W3C Shapes Constraint Language (SHACL)](https://www.w3.org/TR/shacl/)
+[JSON-LD](https://json-ld.org/)
+
+## About
+![Bundesdruckerei GmbH](https://www.bundesdruckerei.de/themes/custom/bdr_bootstrap5/assets/img/bdrgruppe-color.svg) Bundesdruckerei GmbH
