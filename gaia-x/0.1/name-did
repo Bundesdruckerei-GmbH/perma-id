@@ -3,12 +3,12 @@
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/jws-2020/v1"
   ],
-  "id": "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did",
+  "id": "did:web:github.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:0.1:name-did",
   "verificationMethod": [
     {
-      "id": "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft",
+      "id": "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:0.1:name-did",
       "type": "JsonWebKey2020",
-      "controller": "github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did",
+      "controller": "raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:0.1:name-did",
       "publicKeyJwk": {
         "kty": "OKP",
         "crv": "Ed25519",
@@ -17,12 +17,12 @@
     },
   ],
   "authentication": [
-    "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft"
+    "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:0.1:name-did"
   ],
   "assertionMethod": [
-    "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft"
+    "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:0.1:name-did"
   ],
   "keyAgreement": [
-    "did:web:github.com:Bundesdruckerei-GmbH:perma-id:gaia-x:0.1:name-did#dataloft"
+    "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:0.1:name-did"
   ]
 }
