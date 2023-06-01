@@ -4,6 +4,10 @@ permanent Bundesdruckerei ID
 ## Purpose
 The purpose of this repository is to provide a permanent secure URL following the w3id.org approach, just for BDr provided data.
 
+## Status
+Active Development.
+Depends on version of subfolder (beginning by 1.0 stable)
+
 ## Description
 Base for dezentralized document and schema validation is the oppurtunity to retrieve schema definitions using a static resource location. This resource can get used by the publisher as well any other organizations which are developing implementations based on these schemas.
 
