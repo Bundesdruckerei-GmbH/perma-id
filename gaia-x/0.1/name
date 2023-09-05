@@ -1,7 +1,10 @@
 {
    "@context":
    {
-      "familyName": "http://xmlns.com/foaf/0.1/familyName",
-      "givenName": "http://xmlns.com/foaf/0.1/givenName",
+      "familyName": "https://www.w3.org/2000/01/rdf-schema#Literal",
+      "givenNames": "https://www.w3.org/2000/01/rdf-schema#Literal",
+      "birthName": "https://www.w3.org/2000/01/rdf-schema#Literal",
+      "artisticName": "https://www.w3.org/2000/01/rdf-schema#Literal",
+      "doctoralDegree": "https://www.w3.org/2000/01/rdf-schema#Literal",
    }
 }
