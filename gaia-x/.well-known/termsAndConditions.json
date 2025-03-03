@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": "VerifiableCredential",
+  "issuanceDate": "2024-12-01T06:23:14.549Z",
+  "credentialSubject": {
+    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "type": "gx:GaiaXTermsAndConditions",
+    "gx:termsAndConditions": "## Purpose|The purpose of this repository is to provide a permanent secure URL following the w3id.org approach, just for BDr provided data.|## Status|Active Development.|Depends on version of subfolder (beginning by 1.0 stable)|## Description|Base for dezentralized document and schema validation is the oppurtunity to retrieve schema definitions using a static resource location. This resource can get used by the publisher as well any other organizations which are developing implementations based on these schemas.",
+    "id": "https://raw.githubusercontent.com/Bundesdruckerei-GmbH/perma-id/main/gaia-x/.well-known/termsAndConditions.json"
+  },
+  "issuer": "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.json",
+  "id": "https://raw.githubusercontent.com/Bundesdruckerei-GmbH/perma-id/main/gaia-x/.well-known/termsAndConditions.json",
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-03-03T11:28:22.224+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.json",
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ECvPpE0IHsvk9O0T5YN9cpa7OF0wm3fx_fERSXL-ixNqHfbIM5JHRuOLoMyLs2fXoLqyh208l-dejPkWTe8BDYSTGEl4ZKwudm7JVctmwyf3te_fFWfuMh9a4EiIp0crDe69N5_eiIp3BUVDlpm-vRjWLw5fML05Oy3UNbQmGVNhgaFtdd6dNQTGSymXhz2KE6nIYhSQOZQSYRqaF6Rd5bC1usSSZ_1vedp5W9NLgc_Q1HxC293TWYCNJx3OlkeH9nDtZGMDoAfPIA_Tm9bg9NIjtpwFdMBGpu_Nxa05ON6tGTBQMMhsC6D4xdi5TQ7lirqQXuKSTUtM6aMTlUn4zA"
+  }
+}
