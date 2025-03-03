@@ -1,0 +1,38 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "https://raw.githubusercontent.com/Bundesdruckerei-GmbH/perma-id/main/gaia-x/.well-known/participant.json",
+  "issuer": "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.json",
+  "issuanceDate": "2024-12-01T06:21:41.462Z",
+  "credentialSubject": {
+    "type": "gx:LegalParticipant",
+    "gx:legalName": "Bundesdruckerei GmbH",
+    "gx:legalRegistrationNumber": {
+      "id": "https://raw.githubusercontent.com/Bundesdruckerei-GmbH/perma-id/main/gaia-x/.well-known/legalRegistrationNumber.json"
+    },
+    "gx:headquarterAddress": {
+      "gx:countrySubdivisionCode": "DE-BE"
+    },
+    "gx:legalAddress": {
+      "gx:countrySubdivisionCode": "DE-BE"
+    },
+    "id": "https://raw.githubusercontent.com/Bundesdruckerei-GmbH/perma-id/main/gaia-x/.well-known/participant.json"
+  },
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-03-03T11:35:34.864+01:00",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.json",
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://w3id.org/security/suites/jws-2020/v1"
+    ],
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..o2l59voRy1iljJFqlyRp3vsb-E_jCF4QwuaBFUv9ET7Yd1lFK2TabQVr-FxgwPzL_oZWo2ylfYP21efXcLbSTwDx9_KfvV9C68dzHIiSt_-In-S1UlhDPjtVqLtKWJnVWKbQslS7CiU844kLLvQxJO0gIT6dRl-FWwBBIEK3vaAl6ox-5uBdpbTpyFFMbbpkq0RxzhI9VOQrI-jHI-lAIcn1Z3Qo_qACl0jTnNro3DZPjKeBmRlJ5XA3nwZrAEBmDqFxJAJNgOifwu1g_PCehN7jsd4nXdQuPDRfNUxKXUxN4inz7cWtkKdXwj8sfvTI8BSoPzg2jEBW7iE8HLyxDA"
+  }
+}
