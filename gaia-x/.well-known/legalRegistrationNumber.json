@@ -1,0 +1,33 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "type": [
+    "VerifiableCredential"
+  ],
+  "id": "did:web:example.com:legalRegistrationNumber1",
+  "issuer": "did:web:registration.arlabdevelopments.com:v1-staging",
+  "issuanceDate": "2025-03-03T09:00:21.438Z",
+  "credentialSubject": {
+    "@context": "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/jsonld/trustframework#",
+    "type": "gx:legalRegistrationNumber",
+    "id": "https://raw.githubusercontent.com/Bundesdruckerei-GmbH/perma-id/main/gaia-x/.well-known/legalRegistrationNumber.json",
+    "gx:vatID": "DE813210005",
+    "gx:vatID-countryCode": "DE"
+  },
+  "evidence": [
+    {
+      "gx:evidenceURL": "http://ec.europa.eu/taxation_customs/vies/services/checkVatService",
+      "gx:executionDate": "2025-03-03T09:00:21.438Z",
+      "gx:evidenceOf": "gx:vatID"
+    }
+  ],
+  "proof": {
+    "type": "JsonWebSignature2020",
+    "created": "2025-03-03T09:00:21.463Z",
+    "proofPurpose": "assertionMethod",
+    "verificationMethod": "did:web:registration.arlabdevelopments.com:v1-staging#X509-JWK2020",
+    "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..D7fXkr2gp3_YE3B5w5FhHTBE7O_yPav1m9bEfOs2f-MiV1fn_REZIphBAf4iPn5GZg9raUFXwg419JkAa4OP7pKLV28e6V7U4I_qBwdFC_JZnwZHOjDEeTlVzaRlguOFVZJjCLycGDpViFE3-UVGqHKcvMb12_pMgV4MJaaqxcQVy8JPYiE4ia9c3I7Xm4NdCCzLpxLFrdDLEnQrOqLMPbaQDbmahgUuNxPub7cciCvHOStjgOwgc29iF0aUesnWGBf8Dbx83CBsO_IWj1FwEjWEwlFkqmp-kb_1OWkDmn6t8nMDgYhdker390r07rCkjvYDHkqTwB5NTDfj1-NY6w"
+  }
+}
