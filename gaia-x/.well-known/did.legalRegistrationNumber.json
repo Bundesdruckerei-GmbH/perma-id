@@ -1,0 +1,28 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1"
+  ],
+  "id": "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.legalRegistrationNumber.json",
+  "verificationMethod": [
+    {
+      "id": "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.legalRegistrationNumber.json",
+      "type": "JsonWebKey2020",
+      "controller": "raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.legalRegistrationNumber.json",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "crv": "PS256",
+        "x5u": "https://raw.githubusercontent.com/Bundesdruckerei-GmbH/perma-id/main/gaia-x/.well-known/fullchain.pem"
+      }
+    },
+  ],
+  "authentication": [
+    "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.legalRegistrationNumber.json"
+  ],
+  "assertionMethod": [
+    "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.legalRegistrationNumber.json"
+  ],
+  "keyAgreement": [
+    "did:web:raw.githubusercontent.com:Bundesdruckerei-GmbH:perma-id:main:gaia-x:.well-known:did.legalRegistrationNumber.json"
+  ]
+}
